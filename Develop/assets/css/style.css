@@ -4,6 +4,7 @@
     margin: 0;
 }
 
+/* This gives the entire webpage a background of white that is then built upon with more elements. */
 body {
     background-color: #d9dcd6;
 }
@@ -20,6 +21,7 @@ body {
     font-size: 48px;
 }
 
+/*This class styles the 'seo' text in 'Horiseon' specifically. */
 .header h1 .seo {
     color: #d9dcd6;
 }
@@ -40,16 +42,18 @@ body {
     display: inline-block;
     margin-left: 25px;
 }
-
+/* The anchor selector affects all instances of the <a> element in the HTML, which is used for the links. */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* The paragraph selector affects all instances of the <p> element in the HTML, giving them a font size of 16.*/
 p {
     font-size: 16px;
 }
 
+/* Below is the class styling the largest image at the top of the webpage: the meeting between employees of the company. */
 .hero {
     height: 800px;
     width: 100%;
@@ -85,7 +89,8 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/* The three classes below, and the accompanying three headers below, are for the sidebar explaining the benefits of using the company's 
+services. Their icons are listed below that. */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
@@ -133,7 +138,8 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* The three classes below are classes used for the sub divs of the parent div with the class content. These style the font, font color,
+and color the box to create seperation and organization in the webpage. */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -161,9 +167,11 @@ p {
     color: #ffffff;
 }
 
+/* Below are the classes for the images in their corresponding sections with the styling classes listed above.*/
 .search-engine-optimization img {
     max-height: 200px;
 }
+
 
 .online-reputation-management img {
     max-height: 200px;
@@ -173,6 +181,7 @@ p {
     max-height: 200px;
 }
 
+/* The three classes below are classes for the headers for their corresponding sections.*/
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -188,6 +197,7 @@ p {
     font-size: 36px;
 }
 
+/* Styling for the footer of the webpage. */
 .footer {
     padding: 30px;
     clear: both;
